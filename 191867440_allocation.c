@@ -1,11 +1,11 @@
 // Author: Stephen Morris - 191867440
-// Github Link - 
+// Github Link - https://github.com/Obbacon/Assignment4.git
 
 #include<stdlib.h>
 #include<string.h>
 #include<stdio.h>
 
-void main()
+int main()
 
 {
     int bSize[15], pSize[15], throws[15]; 
@@ -45,5 +45,6 @@ void main()
     for (i; i < blockNumber; i++){
         printf("\n%d\t", i + 1);
     }
+    return 0;
     
 }
